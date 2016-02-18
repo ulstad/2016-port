@@ -1,0 +1,160 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Work Sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.row {
+  max-width: 76rem;
+}
+
+
+nav {
+	padding: 1.2rem 0 1.2rem 0;}
+
+nav ul {
+	  list-style-type: none;
+}
+
+nav ul li a {
+  display: block;
+  margin-right: 2rem;  }
+
+  @media screen and (min-width: 40em) {
+  	nav ul li a {
+  		display: inline;
+  	}
+  }
+
+::selection {
+  background: #dddddd; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #dddddd; /* Gecko Browsers */
+}
+
+#site-title {
+font-family: 'Work Sans';
+font-weight:700;
+}
+
+
+
+.intro {
+	background-color: #f8f8f8;
+}
+
+#content {
+  padding: 3rem 0 3rem 0;
+}
+
+footer {
+	padding: 3rem 0 3rem 0;
+}
+
+.logo img {
+	max-width: 2.6rem;
+	float: right;
+	margin-right: 1rem;
+	transition: .25s ease;
+}
+.logo img:hover {
+	-webkit-animation: pulse 1s;
+    animation: pulse .25s;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Work Sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+
+  h1 {
+  	font-size: 2.4rem;
+  	font-weight: 700;
+  }
+  h5 {
+  	font-size: 1rem;
+  }
+  h6 {
+  	font-size: .7rem;
+  }
+
+
+   @media screen and (min-width: 40em) {
+  h1 {
+    font-size: 3.6rem; }
+  h2 {
+    font-size: 2.5rem; }
+  h3 {
+    font-size: 1.9375rem; }
+  h4 {
+    font-size: 1.5625rem; }
+  h5 {
+    font-size: 1.1rem; }
+  h6 {
+    font-size: .8rem; } }
+
+
+  @media screen and (min-width: 60em) {
+  h1 {
+    font-size: 5.4rem; }
+  h2 {
+    font-size: 2.5rem; }
+  h3 {
+    font-size: 1.9375rem; }
+  h4 {
+    font-size: 1.5625rem; }
+  h5 {
+    font-size: 1.2rem; }
+  h6 {
+    font-size: .9rem; } }
+
+
+    a {
+  color: #000000;
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+  a:hover, a:focus {
+    color: #000000;
+    border-bottom: 1px solid #dddddd; }
+  a img {
+    border: 0; }
+
+ .social-icons {
+ 	float: center;
+ }
+ @media screen and (min-width: 40em) {
+ 	.social-icons {
+ 		float: right;
+ 	}
+ }
+
+  .social-icons ul li a {
+
+  }
+  .social-icons ul li a:hover a:focus {
+  	text-decoration: none;
+  	border-bottom: 0px;
+  }
+
+
+
